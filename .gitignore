@@ -1,0 +1,37 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.aws/
+.idea/
+.vscode/
+*.log
+Thumbs.db
+.DS_Store
+# External data and generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/synthetic/*.csv
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+*.joblib
+*.pkl
+*.parquet
+*.zip
