@@ -1,7 +1,7 @@
 # Development instructions
 
 ## Scope and workflow
-- Build this portfolio project in the phases defined in PROJECT_PLAN.md. Phase 1 is the current scope; obtain the user's approval before starting Phase 2.
+- Build this portfolio project in the phases defined in PROJECT_PLAN.md. Phase 6 is authorized; obtain the user's approval before starting Phase 7.
 - Inspect existing code and preserve user changes. Do not commit, publish, or deploy without instruction.
 - Keep dependencies limited to requirements.txt and the Python standard library. Target Python 3.11+.
 - Keep business logic in src/demand_planning, UI in app_pages, and tests in tests. Use pathlib, type hints, descriptive names, and public-function docstrings.

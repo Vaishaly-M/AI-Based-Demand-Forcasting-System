@@ -1,1 +1,1 @@
-"""Reserved for baseline and machine learning forecasting."""
+"""Seasonal Naive and seeded ML models with recursive prediction for evaluation."""

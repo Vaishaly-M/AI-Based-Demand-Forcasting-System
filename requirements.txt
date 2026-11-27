@@ -1,5 +1,5 @@
 # Compatible major-version ranges; these are not a reproducible lock file.
-streamlit>=1.36,<2
+streamlit>=1.50,<2
 pandas>=2.2,<3
 numpy>=1.26,<3
 scikit-learn>=1.4,<2

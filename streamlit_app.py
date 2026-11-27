@@ -1,13 +1,13 @@
-"""Streamlit entry point and shared navigation for the Phase 1 scaffold."""
+"""Streamlit entry point, shared sales sources, filters, and navigation."""
 
 import streamlit as st
 
+from app_pages.data_controls import render_data_controls
+
 st.set_page_config(page_title="Demand & Inventory Planning", page_icon="📊", layout="wide")
 st.sidebar.title("Demand & Inventory")
-st.sidebar.caption("Portfolio project · Phase 1")
-st.sidebar.selectbox("Store", ["Available in Phase 2"], disabled=True)
-st.sidebar.selectbox("Product family", ["Available in Phase 2"], disabled=True)
-st.sidebar.info("No business dataset loaded. Demo sales are synthetic.")
+st.sidebar.caption("Portfolio project · Phase 6")
+render_data_controls()
 
 navigation = st.navigation([
     st.Page("app_pages/overview.py", title="Overview", default=True),

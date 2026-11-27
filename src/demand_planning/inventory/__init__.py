@@ -1,1 +1,1 @@
-"""Reserved for inventory calculations and assumption validation."""
+"""Validated inventory scenarios with explicit demand, cost, and receipt assumptions."""

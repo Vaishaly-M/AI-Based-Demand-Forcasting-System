@@ -1,1 +1,1 @@
-"""Reserved for leakage-safe forecasting features in Phase 3."""
+"""Calendar, lag, rolling, and next-day features with explicit causal boundaries."""
